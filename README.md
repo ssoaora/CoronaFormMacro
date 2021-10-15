@@ -1,2 +1,17 @@
-# CoronaFormMacro
-Macro for Naver form COVID-19
+# ⚠ 이 코드는 네이버 폼 종류에 따라 커스텀 되어야 합니다.
+* `driver.get(' ')` 에 사용자의 URL을 입력  
+* element ID 도 서식에 따라 다릅니다.
+
+## CoronaFormMacro
+학번, 이름, 방 번호를 입력 받아 selenium 으로 네이버 폼 양식을 채워 자동으로 제출합니다.  
+
+### 이용방법
+1. Chrome 브라우저를 이용하여 모든 작업을 진행하므로, 버전에 맞는 [chromedriver.exe](https://chromedriver.chromium.org/downloads)를 `C:\Temp` 에 다운 받아주세요.
+2. Release 페이지에서 파일을 다운로드 받고 실행합니다.
+3. 프로그램 실행 후 항목에 맞게 정보를 입력하세요.
+4. `설문 시작` 을 누르면 자동으로 Chrome 브라우저가 실행되며 항목이 채워지고 제출합니다.
+5. 이후 뜨는 알림을 확인하고 프로그램을 종료하면 모든 창을 종료합니다.  
+
+## Disclaimer
+* 체온은 36.1 ~ 36.8 사이의 값으로 입력됩니다.  
+* 해당 프로그램을 사용함으로서 생기는 책임은 모두 이용자 본인에게 있습니다.  
